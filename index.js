@@ -12,7 +12,7 @@ app.post('/eco', (req, res) => {
   console.log(`===> endpoint /echo con ${echo}`);
 });
 
-app.get('/eco', (req, res) => {
+app.get('/aleatorio', (req, res) => {
   var echo = Math.random();
   console.log(`===> Número aleatorio: ${echo}`);
 });
