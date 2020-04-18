@@ -21,3 +21,13 @@ const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log('simple API escuchando en el puerto: ', port);
 });
+
+app.get('/fecha', (req, res) => {
+
+  <script>
+  var f = new Date();
+  document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+  </script>
+  
+
+});
