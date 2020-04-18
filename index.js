@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json())
 
-app.post('/echo', (req, res) => {
+app.post('/eco', (req, res) => {
   var echo = req.body.mensaje;
   res.status(200).send({
       status: true,
